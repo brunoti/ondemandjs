@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta property="ondemand" content="test,test,test">
+	<meta property="ondemand" content="test1,test2,test3,test4">
 	<title>OnDemand Tests</title>
 </head>
 <body>
 	
 	<script src="index.js"></script>
 	<script type="text/javascript">
-		OnDemandJs();
+        var a = new	OnDemandJs();
+        a.setNewLibraryName('test1', '1');
+        a.setNewLibraryName('test2', '2');
+        a.setNewLibraryName('test3', '3');
+        a.renderLibraries();
 	</script>
 </body>
 </html>
